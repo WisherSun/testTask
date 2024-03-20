@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!--======= MENU ========-->
+    <header class="menu">
+        <div class="menu__container container">
+            <a href="#" class="logo">
+                <img class="logo-img" src="img/logo.svg" alt="logo">
+            </a>
+
+            <div class="menu__buttons">
+                <button class="button menu__button">
+                    <a class="menu__link" href="#get">Users</a>
+                </button>
+
+                <button class="button menu__button">
+                    <a class="menu__link" href="#post">Sign up</a>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!--======= MAIN ========-->
+    <main class="main">
+
+        <!--======= HOME ========-->
+        <section class="home" id="home">
+            <div class="home__container container">
+                <h1 class="home__title title">
+                    Test assignment for front-end developer
+                </h1>
+
+                <p class="home__subtitle subtitle">
+                    What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with a
+                    vast understanding of User design thinking as they'll be building web interfaces with accessibility
+                    in mind. They should also be excited to learn, as the world of Front-End Development keeps evolving.
+                </p>
+
+                <button class="home__button button">
+                    <a class="home__link" href="#post">Sign up</a>
+                </button>
+            </div>
+        </section>
+
+        <!--======= GET ========-->
+        <section class="get" id="get">
+            <div class="get__container container">
+                <h1 class="get__title title">Working with GET request</h1>
+
+                <div class="get__users">
+                    <div class="user">
+                        <img class="user-photo" src="img/user-1.png" alt="photo">
+                        <p class="user-name">
+                            Salvador Stewart Flynn Thomas Salva
+                        </p>
+                        <div class="user-info">
+                            <p class="user-position">Leading specialist of the department of state </p>
+                            <p class="user-email">JeromeKlarkaJeromeKlarka1923362362@com.ua</p>
+                            <p class="user-phone">+38 (098) 278 76 24</p>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <img class="user-photo" src="img/user-2.png" alt="photo">
+                        <p class="user-name">
+                            Takamaru Ayako Jurrien
+                            </p1>
+                            <div class="user-info">
+                                <p class="user-position">Lead Independent Director</p>
+                                <p class="user-email">Takamuru@gmail.com</p>
+                                <p class="user-phone">+38 (098) 278 90 24</p>
+                            </div>
+
+                    </div>
+
+                    <div class="user">
+                        <img class="user-photo" src="img/user-3.png" alt="photo">
+                        <p class="user-name">
+                            Ilya
+                        </p>
+                        <div class="user-info">
+                            <p class="user-position">Co-Founder and CEO</p>
+                            <p class="user-email">Ilya_founder@gmail.com</p>
+                            <p class="user-phone">+38 (098) 235 44 24</p>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <img class="user-photo" src="img/user-4.png" alt="photo">
+                        <p class="user-name">
+                            Alexandre
+                        </p>
+                        <div class="user-info">
+                            <p class="user-position">Lead Independent Director</p>
+                            <p class="user-email">Alexandr_develop@gmail.com</p>
+                            <p class="user-phone">+38 (098) 198 44 24</p>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <img class="user-photo" src="img/user-5.png" alt="photo">
+                        <p class="user-name">
+                            Winny
+                        </p>
+                        <div class="user-info">
+                            <p class="user-position">Former Senior Director</p>
+                            <p class="user-email">Winny_develop@gmail.com</p>
+                            <p class="user-phone">+38 (098) 278 22 88</p>
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <img class="user-photo" src="img/user-6.png" alt="photo">
+                        <p class="user-name">
+                            Simon
+                        </p>
+                        <div class="user-info">
+                            <p class="user-position">President of Commerce</p>
+                            <p class="user-email">Simon@gmail.com</p>
+                            <p class="user-phone">+38 (098) 278 44 00</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <button class="get__button button">Show more</button>
+            </div>
+
+        </section>
+
+        <!--======= POST ========-->
+        <section class="post" id="post">
+            <div class="post__container container">
+                <h1 class="post__title title">Working with POST request</h1>
+                <form class="post__form" method="post" action='#'>
+                    <input class="post__input" name='user_name' type="text" required placeholder="Your name">
+
+                    <input class="post__input" name='email' type="email" required placeholder="Email">
+
+                    <input class="post__input" id="phone" name='phone' type="tel" required placeholder="Phone">
+                    <p class="post__phone-example">+38 (XXX) XXX - XX - XX</p>
+
+                    <div class="post__positions">
+                        <p class="post__positions-title">Select your position</p>
+                        <label class="input-wrap">Frontend developer
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="input-wrap">Backend developer
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="input-wrap">Designer
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="input-wrap">QA
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+
+
+                    <div class="post__file-upload">
+                        <label for="post__file-upload1" class="post__upload-btn">
+                            <input type="file" id="post__file-upload1" name="post__file-upload1" style="display: none;">
+                            Upload
+                        </label>
+                        <label id="post__upload-label" for="post__file-upload2" class="post__upload-input">
+                            <input type="file" id="post__file-upload2" name="file-upload2" style="display: none;"
+                                onchange="updateLabelText(this);">
+                            Upload your photo
+                        </label>
+                    </div>
+
+
+                
+
+
+
+                    <input class="btn-submit button" type="submit" value="Sign up" />
+                </form>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
